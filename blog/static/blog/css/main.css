@@ -1,0 +1,31 @@
+/* Задаем цвет и размер шрифта */
+body {
+font-family: Luminari, fantasy;
+font-size: 16px;
+color: #333;
+background: #6495ED
+}
+
+/* Добавляем тень и выравнивание для заголовков */
+h1, h2, h3 {
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+text-align: center;
+}
+
+@keyframes rainbow {
+0% { color: red; }
+20% { color: orange; }
+40% { color: yellow; }
+60% { color: green; }
+80% { color: blue; }
+100% { color: purple; }
+}
+
+.animated-text {
+animation: rainbow 5s linear infinite;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
