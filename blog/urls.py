@@ -1,6 +1,6 @@
 from django.urls import path, include
-from .views import Aylar
+from .views import aylar
 
 urlpatterns = [
-    path('', Aylar)
+    path('', aylar)
 ]

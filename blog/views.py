@@ -2,6 +2,6 @@ from django.shortcuts import render
 
 
 
-def Aylar(request):
+def aylar(request):
     return render(request, 'blog/base.html')
 
